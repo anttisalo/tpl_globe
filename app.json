@@ -1,0 +1,230 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"shadows": true,
+		"shadowType": 2,
+		"vr": false,
+		"physicallyCorrectLights": true,
+		"toneMapping": 0,
+		"toneMappingExposure": 1
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "31517222-A9A7-4EAF-B5F6-60751C0BABA3",
+			"type": "Scene",
+			"name": "Scene",
+			"layers": 1,
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"children": [
+				{
+					"uuid": "C1199812-FE8E-4313-86BD-6DE20FBC29F9",
+					"type": "Group",
+					"name": "OrbitPivot",
+					"layers": 1,
+					"matrix": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"children": [
+						{
+							"uuid": "36D64F8B-95A3-4D93-A97C-104D1D1D5D51",
+							"type": "PerspectiveCamera",
+							"name": "PerspectiveCamera",
+							"layers": 1,
+							"matrix": [
+								1,
+								0,
+								0,
+								0,
+								0,
+								1,
+								0,
+								0,
+								0,
+								0,
+								1,
+								0,
+								0,
+								0,
+								225,
+								1
+							],
+							"children": [
+								{
+									"uuid": "2AD6A47A-5F2F-4FF0-83A7-FD4B29EBF12F",
+									"type": "DirectionalLight",
+									"name": "DirectionalLight",
+									"layers": 1,
+									"matrix": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										0.989804,
+										-0.142439,
+										0,
+										0,
+										0.142439,
+										0.989804,
+										0,
+										-275.287812,
+										-72.230442,
+										-432.665884,
+										1
+									],
+									"color": 13087743,
+									"intensity": 1,
+									"shadow": {
+										"camera": {
+											"uuid": "C2240503-1938-47FE-A946-2F88630134C4",
+											"type": "OrthographicCamera",
+											"layers": 1,
+											"zoom": 1,
+											"left": -5,
+											"right": 5,
+											"top": 5,
+											"bottom": -5,
+											"near": 0.5,
+											"far": 500
+										}
+									}
+								},
+								{
+									"uuid": "BCF592F0-BA32-48E2-8D56-12557E1E2B88",
+									"type": "DirectionalLight",
+									"name": "DirectionalLight",
+									"castShadow": true,
+									"layers": 1,
+									"matrix": [
+										0.525004,
+										0,
+										-0.8511,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0.8511,
+										0,
+										0.525004,
+										0,
+										121.927229,
+										77.190748,
+										-58.738505,
+										1
+									],
+									"color": "rgb(255,250,190)",
+									"intensity": 1.5,
+									"shadow": {
+										"bias": 0.00006,
+										"radius": 13.06,
+										"camera": {
+											"uuid": "8E5BA382-C6CB-4782-8A8B-39A50E61A7A0",
+											"type": "OrthographicCamera",
+											"layers": 1,
+											"zoom": 1,
+											"left": -5,
+											"right": 5,
+											"top": 5,
+											"bottom": -5,
+											"near": 0.5,
+											"far": 500
+										}
+									}
+								},
+								{
+									"uuid": "9196B6A1-A23B-4B2B-B8C1-93167D166003",
+									"type": "DirectionalLight",
+									"name": "DirectionalLight",
+									"layers": 1,
+									"matrix": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+									],
+									"color": 16722217,
+									"intensity": 0.5,
+									"shadow": {
+										"camera": {
+											"uuid": "4C37FDE0-B84D-44D1-ADDB-2DE62FF06320",
+											"type": "OrthographicCamera",
+											"layers": 1,
+											"zoom": 1,
+											"left": -5,
+											"right": 5,
+											"top": 5,
+											"bottom": -5,
+											"near": 0.5,
+											"far": 500
+										}
+									}
+								}
+							],
+							"fov": 50,
+							"zoom": 1,
+							"near": 100,
+							"far": 400,
+							"focus": 10,
+							"aspect": 1,
+							"filmGauge": 35,
+							"filmOffset": 0
+						}
+					]
+				}
+			]
+		}
+	},
+	"scripts": {}
+}
