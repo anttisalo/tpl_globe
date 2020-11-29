@@ -8,7 +8,7 @@
 		<meta charset="utf-8">
 		<meta name="generator" content="Three.js Editor">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		
+
 		<style>
 			body {
 				font-family: sans-serif;
@@ -19,9 +19,10 @@
 			canvas {
 				display: block;
 				outline: none;
+        margin: 0 auto;
 			}
 			#globecontent{
-				width: 100vh;
+				width: 100vw;
 				height: 100vh;
 				background-color: transparent; /* #1f26b4;*/
 			}
@@ -53,8 +54,8 @@
 				objs = JSON.parse( text );
 				tryLoad();
 			});
-			loader.load( 'app.json?v3', function ( text ) 
-			{			
+			loader.load( 'app.json?v3', function ( text )
+			{
 				scene = JSON.parse( text );
 				tryLoad();
 
@@ -66,12 +67,12 @@
 				player.load(scene,objs, function()
 				{
 					document.getElementById('globe').className = "globe"
-			
+
 				});
 				var clientHeight = document.getElementById('globecontent').clientHeight;
 				player.setSize(clientHeight,clientHeight);
 				player.play();
-				
+
 				window.onresize = resize;
 			}
 
